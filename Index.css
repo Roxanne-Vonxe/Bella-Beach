@@ -1,0 +1,842 @@
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+/*::::::::::::::  CONTACINERS  ::::::::::::::
+::::::::::::::::               ::::::::::::::*/
+
+.container1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
+    url(Home/Container1/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container2 {
+  border-top: #3388af 0.7em solid;
+  border-bottom: #3388af 0.7em solid;
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.container3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(Home/Container3/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container4 {
+  width: 100vw;
+  border-top: #3388af 0.7em solid;
+  border-bottom: #3388af 0.7em solid;
+}
+
+.container5 {
+  width: 100vw;
+  height: 35vh;
+  background-image: url(Home/Container5/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #3388af 0.7em solid;
+}
+
+/*--------------HOME-CONTAINER1--------------*/
+
+.container1-right {
+  position: absolute;
+  top: 25%;
+  left: 70%;
+  border-left: 4px solid #00acee;
+  padding-left: 15px;
+}
+
+.container1-right h1 {
+  color: #eee;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.container1-right h2 {
+  color: #eee;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.container1-center {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1-center h1 {
+  color: #0078ab;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  white-space: nowrap;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+}
+
+.container1-center h2 {
+  color: #eee;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  white-space: nowrap;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+}
+
+.container1-center a {
+  background-color: rgba(0, 120, 171, 0.9);
+  color: #eee;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 0.3em 0.7em;
+  border-radius: 500em;
+  margin-top: 1em;
+  border: 2px solid #0078ab;
+  transition: all 0.35s ease-in-out;
+}
+
+.container1-center a:hover {
+  background-color: rgba(0, 120, 171, 1);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+}
+
+/*--------------HOME-CONTAINER2--------------*/
+
+.container2-top-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+}
+
+.container2-top {
+  width: 100%;
+  height: 80vh;
+  background-image: url(Home/Container2/background-top.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2-heading {
+  color: #111;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: #0078ab 0.1em solid;
+}
+
+.explore {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 0.5em;
+}
+
+.explore > div {
+  overflow: hidden;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.explore a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.35s ease-in-out;
+}
+
+.explore a:hover {
+  transform: scale(1.2);
+}
+
+.explore img {
+  width: 15vw;
+  height: 15vh;
+}
+
+.explore .gradient {
+  width: 30vw;
+  height: 30vh;
+  position: absolute;
+  background: linear-gradient(rgba(11, 116, 202, 0.5), rgba(11, 116, 202, 0.3));
+  transition: 0.35s ease-in-out;
+}
+
+.explore a:hover .gradient {
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s linear;
+}
+
+.explore p {
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+  font-size: 500;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  width: 10vw;
+  height: 10vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10vw;
+  height: 8vh;
+}
+
+.explore p::before {
+  content: "";
+  position: absolute;
+  padding: 2em 0em;
+  left: 0;
+  right: 0;
+  transform: scaleX(0);
+  transition: 0.3s ease-in-out;
+  border: 2px solid white;
+  border-left: none;
+  border-right: none;
+}
+
+.explore p::after {
+  content: "";
+  position: absolute;
+  padding: 2em 0em;
+  left: 0;
+  right: 0;
+  transform: scaley(0);
+  transition: 0.3s ease-in-out;
+  border: 2px solid white;
+  border-top: none;
+  border-bottom: none;
+}
+
+.explore div:hover ::before {
+  transform: scale(1);
+}
+
+.explore div:hover ::after {
+  transform: scale(1);
+}
+
+.explore-room-and-suites-frame {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 2;
+}
+
+.explore-weddings-frame {
+  grid-row: 1 / span 1;
+  grid-column: 3 / span 2;
+}
+
+.explore-dining-frame {
+  grid-row: 1 / span 1;
+  grid-column: 5 / span 2;
+}
+
+.explore-special-events-frame {
+  grid-row: 1 / span 1;
+  grid-column: 7 / span 2;
+}
+
+.explore-things-to-do-frame {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 2;
+}
+
+.explore-photo-gallery-frame {
+  grid-row: 2 / span 1;
+  grid-column: 4 / span 2;
+}
+
+.explore-special-packages-frame {
+  grid-row: 2 / span 1;
+  grid-column: 6 / span 2;
+}
+
+.explore-intro {
+  color: #111;
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  width: 60%;
+}
+
+
+
+.container2-bottom {
+  background-image: url(Home/Container2/background-bottom.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+
+.container2-bottom-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+}
+
+
+
+.container2-bottom-text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.container2-bottom h1 {
+  color: #111;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: #0078ab 0.1em solid;
+}
+
+.container2-bottom h2 {
+  font-family: "Nanum Gothic", sans-serif;
+  color: #111;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  text-align: left;
+  margin-top: 1em;
+}
+
+.container2-reviews {
+  width: 45%;
+  height: 60vh;
+  border: 5px solid #111;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: wheat;
+}
+
+.container2-reviews-date {
+  color: #0078ab;
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+  font-size: 500;
+  text-align: center;
+  line-height: 24px;
+  margin-top: 2em;
+}
+
+.container2-reviews p {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  font-size: 500;
+  color: #111;
+  width: 80%;
+  padding: 2em 0em;
+  text-align: center;
+}
+
+.container2-reviews-name {
+  border-top: 5px solid #0078ab;
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+  font-size: 500;
+  text-align: center;
+  line-height: 24px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------HOME-CONTAINER4--------------*/
+
+.container3-content{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+.container3-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+}
+
+.container3-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container3-text h1{
+  color: #111;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: #0078ab 0.1em solid;
+}
+
+.container3-text h2{
+  font-family: "Nanum Gothic", sans-serif;
+  color: #111;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  text-align: left;
+  margin-top: 1em;
+}
+
+.container3-inclusions{
+  width: 80%;
+  height: 70% ;
+  border: 5px solid #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+
+.container3-inclusions-wrapper{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container3-inclusions h1{
+  color: #111;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.container3-inclusions hr{
+  width: 90%;
+  background-color: black;
+  margin: 1em;
+}
+
+.container3-inclusions-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 70%;
+}
+
+.container3-inclusions-left{
+
+}
+
+.container3-inclusions-right{
+
+}
+
+.container3-inclusions ul{
+  padding: 1em;
+}
+
+.container3-inclusions li{
+  color: #111;
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 24px;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------HOME-CONTAINER4--------------*/
+
+.container4-top {
+  width: 100vw;
+  height: 170vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container4-top-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 95%;
+}
+
+.container4-heading {
+  color: #111;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: #0078ab 0.1em solid;
+}
+
+.container4-rows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container4-accommodation-img {
+  background-image: url(Home/Container4/top/accommodation.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50vw;
+  height: 50vh;
+}
+
+.container4-things-to-do-img {
+  background-image: url(Home/Container4/top/things-to-do.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50vw;
+  height: 50vh;
+}
+
+.container4-special-packages-img {
+  background-image: url(Home/Container4/top/special-packages.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50vw;
+  height: 50vh;
+}
+
+.container4-left-cardholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+  background-image: url(Home/Container4/top/Leaf\ Long.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container4-right-cardholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+  background-image: url(Home/Container4/top/Leaf\ Short.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container4-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30vw;
+  height: 30vh;
+  border: 2px solid rgba(17, 17, 17, 0.7);
+  background-color: wheat;
+}
+
+.container4-top-content h1 {
+  color: #111;
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.container4-top-content h2 {
+  color: #111;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  border-bottom: #0078ab 0.1em solid;
+}
+
+.container4-top-content p {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #111;
+  width: 90%;
+  text-align: center;
+}
+
+.container4-top-content a {
+  color: white;
+  background-color: rgba(0, 120, 171, 0.8);
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 500px;
+  padding: 0.6em;
+  cursor: pointer;
+}
+
+.container4-top-content a:hover {
+  background-color: rgb(0, 120, 171);
+}
+
+.container4-bottom {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container4-bottom-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+}
+
+.container4-bottom-wrapper h1 {
+  color: #111;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: #0078ab 0.1em solid;
+}
+
+.amenities-content {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amenities-content > div {
+  width: 10em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.amenities-content img {
+  width: 3em;
+  height: 3em;
+}
+
+.amenities-wifi img {
+  /*This code is here because the wifi image looks squeezed without it*/
+  width: 3.5em;
+}
+
+.amenities-content p {
+  color: #111;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.amenities-button {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 0.7em 1.5em;
+  text-decoration: none;
+  border-radius: 500px;
+  background-color: rgb(0, 120, 171, 0.8);
+}
+
+.amenities-button:hover {
+  background-color: rgb(0, 120, 171);
+}
+
+/*--------------HOME-CONTAINER5--------------*/
+
+.container5-form {
+  width: 60vw;
+  height: 15vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container5-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 60%;
+}
+
+
+
+.container5-form h1 {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+}
+
+.container5-form h2 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container5-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}
+
+.container5-form input {
+  width: 15em;
+  height: 3em;
+  background-color: white;
+  border: none;
+  border-radius: 500px;
+  padding-left: 1em;
+}
+
+.container5-form button {
+  background-color: rgba(94, 242, 227, 0.85);
+  border: none;
+  border-radius: 500px;
+  width: 7em;
+  height: 3em;
+  color: #111;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.container5-form button:hover {
+  background-color: rgba(94, 242, 227, 1);
+  cursor: pointer;
+}
