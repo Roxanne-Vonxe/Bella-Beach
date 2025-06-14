@@ -603,7 +603,7 @@
 }
 
 .container4-things-to-do-img {
-  background-image: url(Home/Container4/top/things-to-do.jpg);
+  background-image: url(Home/Container4/Top/things-to-do.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -612,7 +612,7 @@
 }
 
 .container4-special-packages-img {
-  background-image: url(Home/Container4/top/special-packages.jpg);
+  background-image: url(Home/Container4/Top/special-packages.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -626,7 +626,7 @@
   align-items: center;
   width: 50vw;
   height: 50vh;
-  background-image: url(Home/Container4/top/Leaf\Long.png);
+  background-image: url(Home/Container4/Top/Leaf\Long.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -638,7 +638,7 @@
   align-items: center;
   width: 50vw;
   height: 50vh;
-  background-image: url(Home/Container4/top/Leaf\Short.png);
+  background-image: url(Home/Container4/Top/Leaf\Short.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
