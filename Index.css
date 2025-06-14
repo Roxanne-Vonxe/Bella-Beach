@@ -594,7 +594,7 @@
 }
 
 .container4-accommodation-img {
-  background-image: url(Home/Container4/top/accommodation.jpg);
+  background-image: url(Home/Container4/Top/accommodation.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -626,7 +626,7 @@
   align-items: center;
   width: 50vw;
   height: 50vh;
-  background-image: url(Home/Container4/top/Leaf\ Long.png);
+  background-image: url(Home/Container4/top/Leaf\Long.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -638,7 +638,7 @@
   align-items: center;
   width: 50vw;
   height: 50vh;
-  background-image: url(Home/Container4/top/Leaf\ Short.png);
+  background-image: url(Home/Container4/top/Leaf\Short.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
